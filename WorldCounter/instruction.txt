@@ -1,0 +1,8 @@
+Create JAR file
+sbt assembly
+
+Run Spark:
+C:\Users\abc\IdeaProjects\HelloWorldSBT>spark-submit --class myPackage.NetworkWordCount C:\Users\abc\IdeaProjects\HelloWorldSBT\target\scala-2.10\HelloWorldSBT-assembly-1.0.jar localhost 9999
+
+Send data:
+nc -lk 9999

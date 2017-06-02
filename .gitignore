@@ -1,0 +1,5 @@
+# exclude everything except directory foo/bar
+/WorldCounter/.idea
+/WorldCounter/target
+/WorldCounter/project/project
+/WorldCounter/project/target
